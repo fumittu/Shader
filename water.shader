@@ -33,8 +33,8 @@
 
 			//uv変数に対してどれだけのオフセットをたすのかを指定
 			//スクロール速度✕時間（＝移動距離）」で計算
-			uv.x += 0.5 * _Time;
-			uv.y += 0.6 * _Time;
+			uv.x += 0.6 * _Time;
+			uv.y += 0.7 * _Time;
 			o.Albedo = tex2D(_MainTex, uv);
 		}
 		ENDCG
